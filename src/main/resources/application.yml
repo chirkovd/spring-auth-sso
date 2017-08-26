@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: INFO
+    com.dipegroup.sample: DEBUG
+    org.springframework: INFO
+    org.springframework.security: INFO
+
+spring:
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+  main:
+    banner-mode: "off"
+
