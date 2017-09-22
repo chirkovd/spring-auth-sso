@@ -2,7 +2,7 @@
 Spring Boot Application with SSO authorization implemented with GitHub authentication
 
 # How to check?
-Run application on [http:localhost:8080](http:localhost:8080) by command
+Run application on [http://localhost:8080](http:localhost:8080) by command
 
 ```
     mvn spring-boot:run
