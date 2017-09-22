@@ -1,8 +1,0 @@
-spring:
-  application:
-    name: sample-sso-service
-
-info:
-  app:
-    timestamp: @project.version@
-    version: @maven.build.timestamp@

@@ -12,3 +12,19 @@ spring:
   main:
     banner-mode: "off"
 
+security:
+  oauth2:
+    client:
+      clientId: fc897a6d4dd507c44174
+      clientSecret: c66a0129e37b104166d73b0de59906b165f88fb4
+      accessTokenUri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://api.github.com/user
+
+info:
+  app:
+    timestamp: @project.version@
+    version: @maven.build.timestamp@
+
